@@ -1,12 +1,17 @@
+
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+
+<script>
+export default {
+  // App.vue 根组件 管理所有子组件
+}
+</script>
 
 <style lang="less">
 #app {
